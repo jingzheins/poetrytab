@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "permissions": [
+    "storage",
+    "notifications"
+  ],
+  "name": "PoetryTab",
+  "version": "1.0",
+  "description": "PoetryTab:为你的浏览提高效率",
+  "author": "惊蛰",
+  "icons": {
+    "16": "img/cadillac.png",
+    "48": "img/cadillac.png",
+    "128": "img/cadillac.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "PoetryTab.html"
+  }
+}
